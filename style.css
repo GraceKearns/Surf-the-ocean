@@ -1,0 +1,166 @@
+/* Importing the DM Sans font */
+@import url("https://fonts.googleapis.com/css?family=DM+Sans");
+
+/* Body styles */
+body {
+  margin:0;
+  background-color: #f0f9ff;
+  font-family: "DM Sans", sans-serif;
+}
+main {
+  display:flex;
+  justify-content: center;
+}
+.imageSection {
+  width:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  margin-left: 37px;
+  margin-right: 27px;
+  overflow:hidden;
+}
+.formSection {
+  width:auto;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  position: relative;
+  flex-basis: 35%;
+  margin-top: 64px;
+  margin-bottom: 48px;
+  
+}
+.titleContainer {
+  color: #0ea5e9;
+  font-size: 3.38rem;
+  font-weight: bold;
+  text-align: left;
+}
+.titleContainer p {
+  margin-top: 64px;
+  line-height: 96%;
+  margin-bottom: 25px;
+  display: block;
+}
+.subTitleContainer {
+
+  font-weight: normal;
+  font-size: 24px;
+  text-align: left;
+}
+.subTitleText {
+  margin:0;
+  margin-bottom: 0;
+  color: #0369a1;
+  margin-bottom: 8px;
+}
+.emailInputContainer {
+  background-color: white;
+  box-shadow: inset 0 1px 0px black;
+  width: 100%;
+  height: 2.75rem;
+  border-radius: 10px;
+}
+.emailInput {
+  text-align: left;
+  border:0;
+  margin-left:20px;
+  opacity:0.4;
+}
+.poweredBy {
+  color:#0369A1;
+  opacity:0.5;
+  font-size: 14px;
+}
+::placeholder {
+  color:#0369A1;
+}
+.fetchImageContainer {
+  text-align: right;
+  margin-top:24.03px;
+}
+
+.imageContainer {
+  width:auto;
+}
+.imageClass {
+  width: 100%;
+  height: 22.38rem;
+}
+.imageClass, img {
+  border-radius: 10px;
+  width:30.00rem;
+  height:25.75rem;
+}
+button {
+  width: 12rem;
+  font-size: 16px;
+  box-shadow: inset 0 0 2px black;
+  border: 0;
+  height: 2.69rem;
+  color: #0369a1;
+  border-radius: 10px;
+  background: white;
+}
+.fetchButton {
+  font-weight: bold;
+  height: 2.69rem;
+  color: #0369a1;
+}
+.submitButtonContainer {
+  text-align: right;
+  margin-top: 23px;
+}
+.submitEmailButton {
+  width: 8.88rem;
+  color: #0369a1;
+  font-weight: bold;
+}
+
+@media (max-width: 430px) {
+  main {
+    display:block;
+  }
+  .imageSection {
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: 37px;
+    margin-right: 35px;
+    overflow:hidden;
+  }
+  .imageContainer {
+    width:auto;
+  }
+  .formSection {
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 37px;
+    margin-right: 35px;
+    margin-top:41px;
+  }
+  .imageClass {
+    width: 100%;
+    height: 22.38rem;
+  }
+  .imageClass, img {
+    border-radius: 10px;
+    
+  }
+  .titleContainer p {
+    margin-top: 41px;
+    line-height: 96%;
+    margin-bottom: 25px;
+    display: block;
+  }
+  .fetchImageContainer {
+    text-align: right;
+    margin-top:28px;
+  }
+}
